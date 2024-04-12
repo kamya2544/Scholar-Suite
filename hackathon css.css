@@ -1,0 +1,99 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  header {
+    background-color: #333;
+    color: #f1ebeb;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    background-color: #0c0000;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #c7c2c2;
+    padding: 5px;
+    border-radius: 5px; /* Rounded edges */
+    transition: opacity 0.15s; /* Transition effect for opacity */
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    opacity: 0.7; /* Opacity change on hover */
+    cursor: pointer; /* Mouse pointer style change on hover */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px; /* Rounded edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
+  }
+  
+   h2, p {
+    color: #333; /* Dark text color */
+  }
+
+  h1 {
+    color: #f8f6f6; /* Dark text color */
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+  }
+  
+  a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded edges */
+    transition: opacity 0.15s; /* Transition effect for opacity */
+  }
+  
+  a:hover {
+    background-color: #555;
+    opacity: 0.7; /* Opacity change on hover */
+    cursor: pointer; /* Mouse pointer style change on hover */
+  }
+  
+  a:active {
+    opacity: 0.5; /* Opacity change when clicked */
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Adjust the website size to fit a MacBook Air screen */
+  @media (max-width: 1440px) {
+    body {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+  }
+  

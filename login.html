@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        form {
+            margin: 70px;
+            max-width: 500px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 94%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2><center>Login</center></h2>
+    <hr>
+    <p><center><b><i>Enter your details to Login to your Scholar Suite Account</i></b></center></p>
+    <form action="login.php" method="POST">
+        <label for="username"><b>Username:</b></label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password"><b>Password:</b></label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br>
+        <br>
+
+        <a href="signup.html"> <center> Not registered yet? Click to Sign Up! </center></a>
+        <br>
+        
+
+        <center> <a href="Home Page.html">Login</a> </center>
+    </form>
+</body>
+</html>

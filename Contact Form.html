@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        form {
+            margin: 70px;
+            max-width: 500px;
+            padding: 20px;
+            border: 10px solid #ccc;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 96%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2><center>Contact Us</center></h2>
+    <hr>
+    <p> <center> <i>  Kindly drop your details and message of concern. Our officials will be contacting you soon. </i> </center> </p>
+    <form action="submit_form.php" method="POST">
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email"><b>Email:</b></label>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required>
+
+ <label for="mobno"><b>Mobile No:</b></label>
+        <input type="text" id="mobno" name="mobno" placeholder="Enter your mobile no." required>
+
+        <label for="message"><b>Message:</b></label>
+        <textarea id="message" name="message" placeholder="Write your message here....." required></textarea>
+
+        <center> <input type="submit" value="Submit"> </center>
+    </form>
+</body>
+</html>

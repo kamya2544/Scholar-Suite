@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <style>
+        form {
+            margin: 70px;
+            max-width: 500px;
+            padding: 20px;
+            border: 10px solid #ccc;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 96%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2><center>Sign Up</center></h2>
+    <hr>
+    <p> <center> <i>  Enter your details to create a new account on Scholar Suite </i> </center> </p>
+    <form action="submit_form.php" method="POST">
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email"><b>Email:</b></label>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="mobno"><b>Mobile No:</b></label>
+        <input type="text" id="mobno" name="mobno" placeholder="Enter your mobile no." required>
+
+        <label for="username"><b>Username:</b></label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password"><b>Password:</b></label>
+        <input type="text" id="password" name="password" placeholder="Enter your password" required>
+
+        <label for="message"><b>Query (if any):</b></label>
+        <textarea id="message" name="message" placeholder="Write your query here....." ></textarea>
+
+        <center> <a href="login.html">Create Account</a> </center>
+    </form>
+</body>
+</html>
